@@ -1,0 +1,42 @@
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\bin\Debug\SDKTradeFlow.exe.config
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\bin\Debug\SDKTradeFlow.exe
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\bin\Debug\SDKTradeFlow.pdb
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\bin\Debug\Lassalle.Flow.dll
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.Properties.Resources.resources
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.csproj.GenerateResource.Cache
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.exe
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.pdb
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.Form1.resources
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.exe.licenses
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.csprojResolveAssemblyReference.cache
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.Form2.resources
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\bin\Debug\SDKTradeFlow.exe.config
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.exe
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.pdb
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.csprojResolveAssemblyReference.cache
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.Form1.resources
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.Form2.resources
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.Properties.Resources.resources
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.SimpleSignalEdit.resources
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.csproj.GenerateResource.Cache
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\obj\Debug\SDKTradeFlow.exe.licenses
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\bin\Debug\SDKTradeFlow.exe
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\bin\Debug\SDKTradeFlow.pdb
+C:\WorkSpace\vs\SDKTradeFlow - 副本\SDKTradeFlow\bin\Debug\Lassalle.Flow.dll
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.SimpleSignalEdit.resources
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\bin\Debug\SDKTradeFlow.exe.config
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.exe
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.pdb
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\bin\Debug\SDKTradeFlow.exe
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\bin\Debug\SDKTradeFlow.pdb
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\bin\Debug\Lassalle.Flow.dll
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.csprojResolveAssemblyReference.cache
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.Form1.resources
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.Form2.resources
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.Properties.Resources.resources
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.SimpleSignalEdit.resources
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.csproj.GenerateResource.Cache
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.exe.licenses
+C:\Users\stock\Desktop\wyf\c#\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.SimpleActionEdit.resources
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.CombinedSignalEdit.resources
+C:\WorkSpace\vs\SDKTradeFlow\SDKTradeFlow\obj\Debug\SDKTradeFlow.SimpleActionEdit.resources
