@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -70,6 +71,9 @@ namespace SDKTradeFlow
             Node n = (Node)addFlow1.SelectedItem;
             Console.WriteLine("text: {0}", n.Text);
             Console.WriteLine("Hello world");
+            Model model = Model.getInstance();
+            BaseObject obj = model.Objects[n.Index];
+            obj.edit();
         }
 
         private void testKeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
@@ -80,6 +84,8 @@ namespace SDKTradeFlow
                 Console.WriteLine("text: {0}", n.Text);
                 if (e.KeyValue == 46) 
                 {
+                    Model model = Model.getInstance();
+                    model.Objects.RemoveAt(n.Index);
                     n.Remove();
                 }
                 Console.WriteLine("key: {0}", e.KeyValue);
@@ -177,6 +183,14 @@ namespace SDKTradeFlow
             }
             subTypeCombo.SelectedIndex = 0;
             changeDrawType();
+        }
+
+        private void start_Click(object sender, EventArgs e)
+        {
+            TestSim test = new TestSim();
+            Thread oThread = new Thread(new ThreadStart(test.run));
+            oThread.Start();
+            //test.run();
         }
     }
 

@@ -12,6 +12,8 @@ namespace SDKTradeFlow
         [STAThread]
         static void Main()
         {
+            //TestSim t = new TestSim();
+            //t.run();
             Application.EnableVisualStyles();
             Application.Run(new Form2());
         }

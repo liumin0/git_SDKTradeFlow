@@ -4,4 +4,5 @@
 namespace SDKTradeFlow
 {
     //public delegate void AddSignalNodeDelegate(SignalNode node);
+    public delegate void ActionTriggeredDelegate(SimpleAction action);
 }

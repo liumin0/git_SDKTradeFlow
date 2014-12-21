@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.addFlow1 = new Lassalle.Flow.AddFlow();
             this.mainMenu1 = new System.Windows.Forms.MainMenu(this.components);
             this.menuItem1 = new System.Windows.Forms.MenuItem();
@@ -50,6 +51,7 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.typeCombo = new System.Windows.Forms.ToolStripComboBox();
             this.subTypeCombo = new System.Windows.Forms.ToolStripComboBox();
+            this.start = new System.Windows.Forms.ToolStripButton();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -211,10 +213,11 @@
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.typeCombo,
-            this.subTypeCombo});
+            this.subTypeCombo,
+            this.start});
             this.toolStrip1.Location = new System.Drawing.Point(3, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(291, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(312, 25);
             this.toolStrip1.TabIndex = 0;
             // 
             // typeCombo
@@ -233,6 +236,16 @@
             this.subTypeCombo.Name = "subTypeCombo";
             this.subTypeCombo.Size = new System.Drawing.Size(121, 25);
             this.subTypeCombo.SelectedIndexChanged += new System.EventHandler(this.subTypeCombo_SelectedIndexChanged);
+            // 
+            // start
+            // 
+            this.start.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.start.Image = ((System.Drawing.Image)(resources.GetObject("start.Image")));
+            this.start.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.start.Name = "start";
+            this.start.Size = new System.Drawing.Size(23, 22);
+            this.start.Text = "toolStripButton1";
+            this.start.Click += new System.EventHandler(this.start_Click);
             // 
             // Form2
             // 
@@ -283,5 +296,6 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripComboBox typeCombo;
         private System.Windows.Forms.ToolStripComboBox subTypeCombo;
+        private System.Windows.Forms.ToolStripButton start;
     }
 }

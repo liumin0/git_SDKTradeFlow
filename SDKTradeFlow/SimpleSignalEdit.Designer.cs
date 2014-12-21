@@ -56,10 +56,11 @@
             // 
             // indicatorCombo
             // 
+            this.indicatorCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.indicatorCombo.FormattingEnabled = true;
             this.indicatorCombo.Items.AddRange(new object[] {
-            "总金额",
-            "均价"});
+            "bid",
+            "ask"});
             this.indicatorCombo.Location = new System.Drawing.Point(86, 46);
             this.indicatorCombo.Name = "indicatorCombo";
             this.indicatorCombo.Size = new System.Drawing.Size(121, 20);
@@ -89,6 +90,7 @@
             this.valueEdit.Name = "valueEdit";
             this.valueEdit.Size = new System.Drawing.Size(100, 21);
             this.valueEdit.TabIndex = 3;
+            this.valueEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.valueEdit_KeyPress);
             // 
             // button1
             // 
@@ -126,6 +128,7 @@
             this.MaximizeBox = false;
             this.Name = "SimpleSignalEdit";
             this.Text = "SimpleSignal";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SimpleSignalEdit_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

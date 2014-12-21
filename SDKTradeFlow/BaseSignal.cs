@@ -7,45 +7,35 @@ using Lassalle.Flow;
 
 namespace SDKTradeFlow
 {
-    class BaseSignal
+    public class BaseSignal : BaseObject
     {
-        protected Node _node;
+        private List<SimpleAction> _actions = new List<SimpleAction>();
 
-        public Node Node
-        {
-            get { return _node; }
-            set { _node = value; }
-        }
-        protected String _name;
-
-        public String Name
-        {
-            get { return _name; }
-            set { _name = value; }
-        }
-        public BaseSignal(Node node, String name, BaseAction action)
-        {
-            _node = node;
-            _name = name;
-            if (action != null)
-                _actions.Add(action);
-        }
-
-        List<BaseAction> _actions = new List<BaseAction>();
-
-        internal List<BaseAction> Actions
+        internal List<SimpleAction> Actions
         {
             get { return _actions; }
             set { _actions = value; }
+        }
+
+        public BaseSignal(Node node, String name, SimpleAction action):base(node, name)
+        {
+            if (action != null)
+                _actions.Add(action);
         }
 
         void triggered()
         {
             for(int i = 0; i < _actions.Count; i++)
             {
-                BaseAction action = _actions[i];
+                SimpleAction action = _actions[i];
                 action.run();
             }
+        }
+
+        public override void edit()
+        {
+            //SimpleSignalEdit simpleSignalEdit = new SimpleSignalEdit(this);
+            //simpleSignalEdit.ShowDialog();
         }
     }
 }

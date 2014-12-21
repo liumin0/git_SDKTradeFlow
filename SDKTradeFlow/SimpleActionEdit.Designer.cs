@@ -81,14 +81,16 @@
             this.signalBox.FormattingEnabled = true;
             this.signalBox.ItemHeight = 12;
             this.signalBox.Location = new System.Drawing.Point(45, 107);
+            this.signalBox.MultiColumn = true;
             this.signalBox.Name = "signalBox";
+            this.signalBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.signalBox.Size = new System.Drawing.Size(484, 100);
             this.signalBox.TabIndex = 3;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Enabled = false;
+            this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(45, 231);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(89, 16);
@@ -100,7 +102,6 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Enabled = false;
             this.radioButton2.Location = new System.Drawing.Point(45, 253);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(83, 16);
@@ -112,7 +113,6 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Enabled = false;
             this.radioButton3.Location = new System.Drawing.Point(45, 275);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(77, 16);
@@ -124,7 +124,6 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Enabled = false;
             this.radioButton4.Location = new System.Drawing.Point(45, 297);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(89, 16);
@@ -136,7 +135,6 @@
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Enabled = false;
             this.radioButton5.Location = new System.Drawing.Point(45, 319);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(83, 16);
@@ -148,7 +146,6 @@
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Enabled = false;
             this.radioButton6.Location = new System.Drawing.Point(45, 341);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(47, 16);
@@ -160,7 +157,6 @@
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
-            this.radioButton7.Enabled = false;
             this.radioButton7.Location = new System.Drawing.Point(45, 363);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(47, 16);
@@ -294,6 +290,7 @@
             this.Controls.Add(this.label1);
             this.Name = "SimpleActionEdit";
             this.Text = "确定";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SimpleActionEdit_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -19,6 +19,7 @@ namespace SDKTradeFlow
         public Form1()
         {
             InitializeComponent();
+            Console.WriteLine("type:{0}", this.GetType().ToString());
         }
 
         private void Form1_Load(object sender, EventArgs e)

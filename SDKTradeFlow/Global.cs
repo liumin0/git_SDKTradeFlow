@@ -8,12 +8,18 @@ using System.Threading.Tasks;
 namespace SDKTradeFlow
 {
 
-    class Global
+    public class Global
     {
-        public enum ActionOption 
+        public enum ActionType
         {
-            buy,
-            sell
+            send_market,
+            send_limit,
+            send_stop,
+            send_cancel,
+            signal_set,
+            skip,
+            none
         }
+
     }
 }
