@@ -135,7 +135,7 @@ namespace SDKTradeFlow
             }
             else
             {
-                optionBtn.Text = "卖";
+                optionBtn.Text = "买";
                 _isBuy = true;
             }
         }

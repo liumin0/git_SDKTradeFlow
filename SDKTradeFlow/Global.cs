@@ -21,5 +21,6 @@ namespace SDKTradeFlow
             none
         }
 
+        public static Form2 mainFormInstance = null;
     }
 }

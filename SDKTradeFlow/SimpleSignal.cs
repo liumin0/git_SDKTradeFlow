@@ -48,7 +48,7 @@ namespace SDKTradeFlow
             {
                 
                 SimpleAction action = _actions[i];
-                Console.WriteLine("triggered action {0}", action.Name);
+                //Console.WriteLine("triggered action {0}", action.Name);
                 action.triggered(this);
             }
         }
@@ -58,7 +58,7 @@ namespace SDKTradeFlow
             //Console.WriteLine("indicator: {0} value: {1}, tick.bid: {2}", _indicator, _value, tick.bid);
             if (_indicator == "bid" && tick.bid == _value)
             {
-                Console.WriteLine("tick {0}, sym: {1}", tick.bid, tick.symbol);
+                //Console.WriteLine("tick {0}, sym: {1}", tick.bid, tick.symbol);
                 triggered();
             }
             else if (_indicator == "ask" && tick.ask == _value)

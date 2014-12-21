@@ -17,6 +17,7 @@ namespace SDKTradeFlow
         public Form2()
         {
             InitializeComponent();
+            Global.mainFormInstance = this;
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -188,10 +189,25 @@ namespace SDKTradeFlow
         private void start_Click(object sender, EventArgs e)
         {
             TestSim test = new TestSim();
+            Control.CheckForIllegalCrossThreadCalls = false;
             Thread oThread = new Thread(new ThreadStart(test.run));
+            oThread.IsBackground = true;
             oThread.Start();
             //test.run();
         }
+
+        public void showResult(DataTable dt)
+        {
+            if (dt != null)
+                dataGridView3.DataSource = dt;
+        }
+
+        public void showTicks(DataTable dt)
+        {
+            if (dt != null)
+                dataGridView1.DataSource = dt;
+        }
+        
     }
 
     

@@ -67,7 +67,7 @@ namespace SDKTradeFlow
         public void triggered(SimpleSignal signal)
         {
             //TODO action
-            Console.WriteLine("triggered {0}", signal.Name);
+            //Console.WriteLine("triggered {0}", signal.Name);
             _causeSignal = signal;
             if (triggeredDel!=null)
                 triggeredDel(this);
